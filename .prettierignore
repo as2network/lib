@@ -1,0 +1,6 @@
+types/
+build/
+coverage/
+node_modules/
+.github/
+

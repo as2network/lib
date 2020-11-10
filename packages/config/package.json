@@ -1,0 +1,19 @@
+{
+  "name": "@as2/config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "sam <sam@freighttrust.com>",
+  "homepage": "https://github.com/freight-trust/",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "lib/config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

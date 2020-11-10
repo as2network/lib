@@ -1,0 +1,32 @@
+{
+	"name": "@as2network/recoverable-wallet-library",
+	"description": "TypeScript files for interfacing with the RecoverableWallet contracts.",
+	"version": "2.0.0",
+	"license": "Unlicense",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Zoltu/recoverable-wallet.git"
+	},
+	"main": "output/index.js",
+	"dependencies": {
+		"@as2network/ethereum-abi-encoder": "4.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "13.9.0",
+		"@as2network/bigint-helpers": "2.0.1",
+		"@as2network/ethereum-crypto": "2.1.1",
+		"@as2network/solidity-typescript-generator": "3.1.0",
+		"solc": "0.6.2",
+		"ts-node": "8.6.2",
+		"typescript": "3.8.3"
+	},
+	"files": [
+		"/output/",
+		"/source/"
+	],
+	"scripts": {
+		"build": "ts-node --project scripts/tsconfig.json scripts/compile.ts && tsc",
+		"prepublishOnly": "npm run build && node --eval \"require('fs').copyFile('../README.md', 'README.md', error => {if(error) throw error})\"",
+		"postpublish": "node --eval \"require('fs').unlink('README.md', error => {if(error) throw error})\""
+	}
+}

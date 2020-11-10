@@ -1,0 +1,26 @@
+{
+	"description": "N/A",
+	"repository": {},
+	"license": "Unlicense",
+	"dependencies": {
+		"@as2network/ethereum-browser-sdk": "file:../ethereum-browser-sdk/library",
+		"@as2network/ethereum-abi-encoder": "3.2.2",
+		"@as2network/ethereum-crypto": "2.1.0",
+		"@as2network/ethereum-fetch-json-rpc": "file:../../ethereum-fetch-json-rpc",
+		"@as2network/ethereum-types": "file:../../ethereum-types",
+		"@as2network/ethereum-ledger": "3.0.0",
+		"es-module-shims": "0.4.5",
+		"webextension-polyfill": "0.4.0"
+	},
+	"devDependencies": {
+		"@types/firefox-webext-browser": "67.0.2",
+		"recursive-fs": "1.1.2",
+		"typescript": "3.6.3"
+	},
+	"scripts": {
+		"clean": "recursive-delete \"output\"",
+		"watch": "cd build && npx ts-node watch.ts",
+		"build": "cd build && npx ts-node build.ts",
+		"prepare": "cd build && npm install"
+	}
+}

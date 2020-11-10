@@ -1,0 +1,29 @@
+{
+	"description": "N/A",
+	"repository": {},
+	"license": "Unlicense",
+	"dependencies": {
+		"@ledgerhq/hw-app-eth": "5.22.0",
+		"@ledgerhq/hw-transport": "5.22.0",
+		"@ledgerhq/hw-transport-node-hid-singleton": "5.22.0",
+		"@peculiar/webcrypto": "1.0.23",
+		"@types/ledgerhq__hw-transport": "4.21.2",
+		"@types/node": "14.0.26",
+		"@types/node-fetch": "2.5.5",
+		"@as2network/bigint-helpers": "2.0.1",
+		"@as2network/ethereum-abi-encoder": "5.0.1",
+		"@as2network/ethereum-crypto": "2.1.1",
+		"@as2network/ethereum-fetch-json-rpc": "13.0.0",
+		"@as2network/ethereum-ledger": "3.0.1",
+		"@as2network/ethereum-types": "9.0.0",
+		"@as2network/recoverable-wallet-library": "file:../contracts",
+		"@as2network/rlp-encoder": "2.0.0",
+		"@as2network/solidity-typescript-generator": "4.0.3",
+		"eth-ens-namehash": "2.0.8",
+		"node-fetch": "2.6.1",
+		"regenerator-runtime": "0.13.3",
+		"semaphore-async-await": "1.5.1",
+		"ts-node": "8.10.2",
+		"typescript": "3.9.7"
+	}
+}

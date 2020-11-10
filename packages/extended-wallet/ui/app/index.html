@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' href='./css/index.css'>
+</head>
+<body style='margin: 0;'>
+	<!-- turn these into `import 'react'` once https://github.com/facebook/react/issues/17352 is fixed -->
+	<script src='./vendor/react/react.production.min.js'></script>
+	<script src='./vendor/react-dom/react-dom.production.min.js'></script>
+	<script type='module' src='./vendor/es-module-shims/es-module-shims.js'></script>
+	<script type='importmap-shim'>
+		{
+			"imports": {
+				"@as2network/recoverable-wallet-library": "./vendor/@as2network/recoverable-wallet-library/index.js",
+				"@as2network/ethereum-abi-encoder": "./vendor/@as2network/ethereum-abi-encoder/index.js",
+				"@as2network/ethereum-crypto": "./vendor/@as2network/ethereum-crypto/index.js",
+				"@as2network/ethereum-fetch-json-rpc": "./vendor/@as2network/ethereum-fetch-json-rpc/index.js",
+				"@as2network/ethereum-types": "./vendor/@as2network/ethereum-types/index.js",
+				"es-module-shims": "./vendor/es-module-shims/es-module-shims.min.js",
+				"react": "./vendor/react/react.production.min.js",
+				"react-dom": "./vendor/react-dom/react-dom.production.min.js"
+			}
+		}
+	</script>
+
+	<main>Loading...</main>
+
+	<script type='module-shim' src='./js/index.js'></script>
+</body>

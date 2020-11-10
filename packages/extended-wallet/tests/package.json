@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+		"@peculiar/webcrypto": "1.0.23",
+		"@types/jasmine": "3.5.8",
+		"@types/node": "12.12.6",
+		"@types/node-fetch": "2.5.5",
+		"@as2network/ethereum-abi-encoder": "4.0.0",
+		"@as2network/ethereum-crypto": "2.1.1",
+		"@as2network/ethereum-types": "8.3.2",
+		"@as2network/ethereum-fetch-json-rpc": "11.1.0",
+		"@as2network/recoverable-wallet-library": "file:../contracts",
+		"node-fetch": "2.6.1",
+		"jasmine": "3.5.0",
+		"ts-node": "8.6.2",
+		"typescript": "3.8.3"
+	},
+	"scripts": {
+		"test": "ts-node --project tsconfig.json source/index.ts"
+	}
+}

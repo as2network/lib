@@ -1,0 +1,48 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "contracts - compile",
+			"cwd": "${workspaceFolder}/contracts/",
+			"runtimeArgs": [ "-r", "ts-node/register", ],
+			"args": [ "${workspaceFolder}/contracts/scripts/compile.ts", ],
+			"env": {
+				"TS_NODE_PROJECT": "${workspaceFolder}/contracts/scripts/tsconfig.json",
+			}
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "toolbox - sandbox",
+			"cwd": "${workspaceFolder}/toolbox/",
+			"runtimeArgs": [ "-r", "ts-node/register", ],
+			"args": [ "${workspaceFolder}/toolbox/source/sandbox.ts", ],
+			"env": {
+				"TS_NODE_PROJECT": "${workspaceFolder}/toolbox/tsconfig.json",
+			}
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "toolbox - script",
+			"cwd": "${workspaceFolder}/toolbox/",
+			"runtimeArgs": [ "-r", "ts-node/register", ],
+			"args": [ "${workspaceFolder}/toolbox/source/scripts/get-status.ts", ],
+			"env": {
+				"TS_NODE_PROJECT": "${workspaceFolder}/toolbox/tsconfig.json",
+			}
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "tests",
+			"cwd": "${workspaceFolder}/tests",
+			"runtimeArgs": [ "-r", "ts-node/register", ],
+			"args": [ "${workspaceFolder}/tests/source/index.ts", ],
+			"env": { "TS_NODE_PROJECT": "${workspaceFolder}/tests/tsconfig.json" },
+			"outputCapture": "std",
+		},
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"description": "N/A",
+	"repository": {},
+	"license": "Unlicense",
+	"dependencies": {
+		"@types/node": "12.7.5",
+		"@as2network/file-copier": "2.2.0",
+		"@as2network/typescript-transformer-append-js-extension": "1.0.1",
+		"ts-node": "8.4.1",
+		"typescript": "3.6.3"
+	}
+}

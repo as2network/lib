@@ -1,0 +1,19 @@
+{
+	"name": "@as2network/ethereum-browser-sdk",
+	"version": "1.0.0",
+	"description": "TBD",
+	"repository": {},
+	"license": "Unlicense",
+	"main": "output-node/index.js",
+	"module": "output-es/index.js",
+	"devDependencies": {
+		"@as2network/typescript-transformer-append-js-extension": "1.0.1",
+		"ts-node": "8.4.1",
+		"ttypescript": "1.5.7",
+		"typescript": "3.6.3"
+	},
+	"scripts": {
+		"build": "ttsc --project tsconfig-es.json && tsc --project tsconfig-node.json",
+		"watch": "ttsc --project tsconfig-es.json --watch"
+	}
+}
