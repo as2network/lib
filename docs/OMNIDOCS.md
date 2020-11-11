@@ -1,20 +1,3 @@
-# `@as2/library`
-
-> Ethereum AS2 Library
-
-## Usage
-
-```js
-const config = require('@as2');
-
-// @as2 protocol
-```
-
-## Licese 
-
-Public Domain
-
-
 Gather block/transaction statistics and pipe them to InfluxDB for query and (optionally) graphing (via Grafana).
 
 ## Run

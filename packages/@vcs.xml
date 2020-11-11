@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree>
+  <directory name=".">
+    <file name="@vcs.xml"></file>
+    <file name="OMNIDOCS.md"></file>
+    <directory name="config">
+      <file name="README.md"></file>
+      <directory name="__tests__">
+        <file name="config.test.js"></file>
+      </directory>
+      <directory name="lib">
+        <file name="config.js"></file>
+      </directory>
+      <file name="package.json"></file>
+    </directory>
+    <directory name="ethereum-gas-oracle">
+      <file name="Dockerfile"></file>
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="source">
+        <file name="ErrorHandler.ts"></file>
+        <file name="GasOracle.ts"></file>
+        <file name="WebServer.ts"></file>
+      </directory>
+      <file name="tsconfig.json"></file>
+      <directory name="typings">
+        <file name="collections.d.ts"></file>
+        <file name="ethers.d.ts"></file>
+      </directory>
+    </directory>
+    <directory name="extended-wallet">
+      <file name="README.md"></file>
+      <directory name="contracts">
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <directory name="scripts">
+          <file name="compile.ts"></file>
+          <file name="tsconfig.json"></file>
+          <directory name="typings">
+            <directory name="ethereum">
+              <file name="index.d.ts"></file>
+            </directory>
+            <directory name="solc">
+              <file name="index.d.ts"></file>
+            </directory>
+          </directory>
+        </directory>
+        <directory name="source">
+          <file name="deploy.ts"></file>
+          <file name="deployment-parameters.ts"></file>
+          <file name="index.ts"></file>
+          <file name="recoverable-wallet.sol"></file>
+        </directory>
+        <file name="tsconfig.json"></file>
+      </directory>
+      <file name="docker-compose.yml"></file>
+      <directory name="tests">
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <directory name="source">
+          <file name="dependencies.ts"></file>
+          <file name="erc20-token.ts"></file>
+          <file name="index.ts"></file>
+          <file name="rpc-factories.ts"></file>
+          <file name="signers.ts"></file>
+          <file name="wallet-management.ts"></file>
+        </directory>
+        <file name="tsconfig.json"></file>
+      </directory>
+      <directory name="toolbox">
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <directory name="source">
+          <file name="dependencies.ts"></file>
+          <file name="erc20-token.ts"></file>
+          <file name="error-with-data.ts"></file>
+          <file name="friendly-recoverable-wallet.ts"></file>
+          <file name="ledger-signer.ts"></file>
+          <file name="mnemonic-signer.ts"></file>
+          <file name="private-key-signer.ts"></file>
+          <file name="recoverable-wallet-factories.ts"></file>
+          <file name="recoverable-wallet-factory.ts"></file>
+          <file name="rpc-factories.ts"></file>
+          <directory name="scripts">
+            <file name="_constants.ts"></file>
+            <file name="_globals.ts"></file>
+            <file name="add-recoverer.ts"></file>
+            <file name="cancel-recovery.ts"></file>
+            <file name="create-wallet.ts"></file>
+            <file name="ens-set-owner.ts"></file>
+            <file name="finish-recovery.ts"></file>
+            <file name="get-status.ts"></file>
+            <file name="remove-recoverer.ts"></file>
+            <file name="sandbox.ts"></file>
+            <file name="send-eth.ts"></file>
+            <file name="send-tokens.ts"></file>
+            <file name="start-recovery.ts"></file>
+          </directory>
+          <directory name="typings">
+            <directory name="@ledgerhq__hw-app-eth">
+              <file name="index.d.ts"></file>
+            </directory>
+            <directory name="@ledgerhq__hw-transport-node-hid-noevents">
+              <file name="index.d.ts"></file>
+            </directory>
+            <directory name="@ledgerhq__hw-transport-node-hid-singleton">
+              <file name="index.d.ts"></file>
+            </directory>
+            <directory name="eth-ens-namehash">
+              <file name="index.d.ts"></file>
+            </directory>
+          </directory>
+          <file name="utils.ts"></file>
+        </directory>
+        <file name="tsconfig.json"></file>
+      </directory>
+      <directory name="ui">
+        <directory name="app">
+          <directory name="css">
+            <file name="index.css"></file>
+          </directory>
+          <file name="index.html"></file>
+          <directory name="ts">
+            <directory name="components">
+              <file name="App.tsx"></file>
+            </directory>
+            <file name="index.ts"></file>
+            <directory name="library">
+              <file name="proxy.ts"></file>
+            </directory>
+          </directory>
+        </directory>
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <directory name="scripts">
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <file name="tsconfig.json"></file>
+          <file name="vendor.ts"></file>
+        </directory>
+        <file name="tsconfig.json"></file>
+      </directory>
+    </directory>
+    <directory name="json-rpc">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package-lock.json"></file>
+      <file name="package.json"></file>
+      <directory name="source">
+        <file name="error-with-data.ts"></file>
+        <file name="index.tests.ts"></file>
+        <file name="index.ts"></file>
+        <file name="sleep.ts"></file>
+        <file name="utils.ts"></file>
+        <directory name="vendor">
+        </directory>
+      </directory>
+      <file name="tsconfig-es.json"></file>
+      <file name="tsconfig-node.json"></file>
+      <file name="tsconfig-tests.json"></file>
+      <file name="tsconfig.json"></file>
+    </directory>
+    <directory name="monitor-sdk">
+      <file name="Dockerfile"></file>
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="docker-compose.yml"></file>
+      <file name="package.json"></file>
+      <directory name="source">
+        <file name="data-faucet.ts"></file>
+        <file name="extensions.ts"></file>
+        <file name="json-rpc-types.ts"></file>
+        <file name="my-provider.ts"></file>
+        <file name="script.ts"></file>
+      </directory>
+      <directory name="tests">
+        <file name="tests.ts"></file>
+      </directory>
+      <file name="tsconfig.json"></file>
+    </directory>
+    <directory name="types">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <file name="package.json"></file>
+      <directory name="source">
+        <file name="index.tests.ts"></file>
+        <file name="index.ts"></file>
+      </directory>
+      <file name="tsconfig-es.json"></file>
+      <file name="tsconfig-node.json"></file>
+      <file name="tsconfig-tests.json"></file>
+      <file name="tsconfig.json"></file>
+    </directory>
+    <directory name="web-sdk">
+      <file name="LICENSE"></file>
+      <file name="README.md"></file>
+      <directory name="browser-extension">
+        <directory name="app">
+          <file name="background.html"></file>
+          <directory name="icons">
+            <file name="favicon-128x128.png"></file>
+            <file name="favicon-16x16.png"></file>
+            <file name="favicon-196x196.png"></file>
+            <file name="favicon-32x32.png"></file>
+            <file name="favicon-96x96.png"></file>
+          </directory>
+          <file name="manifest.json"></file>
+          <directory name="ts">
+            <file name="abi-stuff.ts"></file>
+            <file name="background.ts"></file>
+            <file name="content.ts"></file>
+            <file name="error-handler.ts"></file>
+            <file name="hot-ostrich-channel.ts"></file>
+            <file name="injected.ts"></file>
+            <file name="legacy-injector.ts"></file>
+            <file name="wallet.ts"></file>
+          </directory>
+        </directory>
+        <directory name="build">
+          <file name="build.ts"></file>
+          <file name="compile-typescript.ts"></file>
+          <file name="filesystem-extensions.ts"></file>
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <file name="paths.ts"></file>
+          <file name="source-map-fixer.ts"></file>
+          <file name="tsconfig.json"></file>
+          <file name="watch.ts"></file>
+        </directory>
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <file name="tsconfig.json"></file>
+      </directory>
+      <directory name="ethereum-browser-sdk">
+        <directory name="library">
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <directory name="source">
+            <file name="client.ts"></file>
+            <file name="future.ts"></file>
+            <file name="index.ts"></file>
+            <file name="provider.ts"></file>
+            <file name="shared.ts"></file>
+            <file name="utils.ts"></file>
+          </directory>
+          <file name="tsconfig-es.json"></file>
+          <file name="tsconfig-node.json"></file>
+          <file name="tsconfig.json"></file>
+        </directory>
+        <directory name="tests">
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <directory name="source">
+            <file name="index.ts"></file>
+          </directory>
+          <file name="tsconfig.json"></file>
+        </directory>
+      </directory>
+      <directory name="provider-iframe-wrapper">
+        <directory name="app">
+          <file name="index.css"></file>
+          <file name="index.html"></file>
+          <directory name="ts">
+            <file name="global.d.ts"></file>
+            <file name="index.ts"></file>
+            <directory name="library">
+              <file name="abi-stuff.ts"></file>
+              <file name="error-handler.ts"></file>
+              <file name="handshake-handler.ts"></file>
+              <file name="hot-ostrich-channel.ts"></file>
+              <file name="privacy-decorator.ts"></file>
+              <file name="proxy.ts"></file>
+              <file name="wallet.ts"></file>
+            </directory>
+            <directory name="views">
+              <file name="address-input.tsx"></file>
+              <file name="app.tsx"></file>
+              <file name="dapp-selector.tsx"></file>
+              <file name="iframe.tsx"></file>
+              <file name="ledger-wallet-input.tsx"></file>
+              <file name="mnemonic-wallet-input.tsx"></file>
+              <file name="recoverable-wallet-input.tsx"></file>
+              <file name="viewing-wallet-input.tsx"></file>
+              <file name="wallet-selector-modal.tsx"></file>
+              <file name="wallet-selector.tsx"></file>
+            </directory>
+          </directory>
+        </directory>
+        <directory name="build">
+          <file name="build.ts"></file>
+          <file name="clean.ts"></file>
+          <file name="compile-typescript.ts"></file>
+          <file name="filesystem-extensions.ts"></file>
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <file name="paths.ts"></file>
+          <file name="serve.ts"></file>
+          <file name="source-map-fixer.ts"></file>
+          <file name="tsconfig.json"></file>
+          <file name="watch.ts"></file>
+        </directory>
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <file name="tsconfig.json"></file>
+      </directory>
+      <directory name="sample-dapp">
+        <directory name="app">
+          <file name="index.css"></file>
+          <file name="index.html"></file>
+          <directory name="ts">
+            <file name="index.ts"></file>
+            <directory name="library">
+              <file name="error-handler.ts"></file>
+              <file name="proxy.ts"></file>
+              <file name="types.ts"></file>
+              <file name="utils.ts"></file>
+            </directory>
+            <directory name="views">
+              <file name="app.tsx"></file>
+              <file name="asset-manager.tsx"></file>
+              <file name="my-account.tsx"></file>
+              <file name="provider.tsx"></file>
+              <file name="send-eth.tsx"></file>
+              <file name="send-token.tsx"></file>
+              <file name="token.tsx"></file>
+            </directory>
+          </directory>
+        </directory>
+        <directory name="build">
+          <file name="build.ts"></file>
+          <file name="compile-typescript.ts"></file>
+          <file name="filesystem-extensions.ts"></file>
+          <file name="package-lock.json"></file>
+          <file name="package.json"></file>
+          <file name="paths.ts"></file>
+          <file name="serve.ts"></file>
+          <file name="source-map-fixer.ts"></file>
+          <file name="tsconfig.json"></file>
+          <file name="watch.ts"></file>
+        </directory>
+        <file name="package-lock.json"></file>
+        <file name="package.json"></file>
+        <file name="tsconfig.json"></file>
+      </directory>
+    </directory>
+  </directory>
+  <report>
+    <directories>61</directories>
+    <files>222</files>
+  </report>
+</tree>
