@@ -1,6 +1,7 @@
 
 {
   "name": "@as2/library",
+  "version": "0.3.0",
   "description": " TypeScript monorepo",
   "private": true,
   "workspaces": [
