@@ -5,7 +5,7 @@
 	"license": "Unlicense",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Zoltu/recoverable-wallet.git"
+		"url": "git@github.com:@as2network/recoverable-wallet.git"
 	},
 	"main": "output/index.js",
 	"dependencies": {
