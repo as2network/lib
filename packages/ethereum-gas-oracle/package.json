@@ -1,11 +1,11 @@
 {
-  "name": "ethereum-gas-oracle",
+  "name": "@as2network/ethereum-gas-oracle",
   "description": "N/A",
   "license": "Unlicense",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zoltu/ethereum-gas-oracle.git"
+    "url": "git+https://github.com/as2network/lib/master/packages/ethereum-gas-oracle.git"
   },
   "dependencies": {
     "@types/collections": "5.0.0",
