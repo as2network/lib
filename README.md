@@ -1,6 +1,6 @@
 # `@as2/library`
 
-> Ethereum AS2 Library
+> Ethereum Library for AS2 Network
 
 ## Usage
 
