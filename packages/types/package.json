@@ -2,10 +2,7 @@
   "name": "@as2network/ethereum-types",
   "description": "Some type definitions to use when working with Ethereum.",
   "version": "9.0.0",
-  "repository": {
-    "url": "https://github.com/zoltu/ethereum-types"
-  },
-  "license": "Unlicense",
+  "license": "MIT",
   "main": "output-node/index.js",
   "module": "output-es/index.js",
   "devDependencies": {
@@ -20,8 +17,7 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig-es.json && tsc --project tsconfig-node.json",
-    "test": "ts-node --project tsconfig-tests.json source/index.tests.ts",
-    "prepublishOnly": "npm run build && npm run test"
+    "test": "ts-node --project tsconfig-tests.json source/index.tests.ts"
   },
   "files": [
     "/output-es/",
