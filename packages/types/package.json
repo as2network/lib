@@ -1,32 +1,33 @@
 {
-	"name": "@as2network/ethereum-types",
-	"description": "Some type definitions to use when working with Ethereum.",
-	"version": "9.0.0",
-	"repository": {
-		"url": "https://github.com/zoltu/ethereum-types"
-	},
-	"license": "Unlicense",
-	"main": "output-node/index.js",
-	"module": "output-es/index.js",
-	"devDependencies": {
-		"@types/chai": "4.1.7",
-		"@types/chai-datetime": "0.0.32",
-		"chai": "4.2.0",
-		"chai-bytes": "0.1.2",
-		"chai-datetime": "1.5.0",
-		"ts-node": "8.1.0",
-		"typescript": "3.4.5"
-	},
-	"scripts": {
-		"build": "tsc --project tsconfig-es.json && tsc --project tsconfig-node.json",
-		"test": "ts-node --project tsconfig-tests.json source/index.tests.ts",
-		"prepublishOnly": "npm run build && npm run test"
-	},
-	"files": [
-		"/output-es/",
-		"/output-node/",
-		"/source/",
-		"README.md",
-		"LICENSE"
-	]
+  "name": "@as2network/ethereum-types",
+  "description": "Some type definitions to use when working with Ethereum.",
+  "version": "9.0.0",
+  "repository": {
+    "url": "https://github.com/zoltu/ethereum-types"
+  },
+  "license": "Unlicense",
+  "main": "output-node/index.js",
+  "module": "output-es/index.js",
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "@types/chai-datetime": "0.0.32",
+    "chai": "4.2.0",
+    "chai-bytes": "0.1.2",
+    "chai-datetime": "1.5.0",
+    "source-map": "^0.7.3",
+    "ts-node": "8.1.0",
+    "typescript": "3.4.5"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig-es.json && tsc --project tsconfig-node.json",
+    "test": "ts-node --project tsconfig-tests.json source/index.tests.ts",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "files": [
+    "/output-es/",
+    "/output-node/",
+    "/source/",
+    "README.md",
+    "LICENSE"
+  ]
 }

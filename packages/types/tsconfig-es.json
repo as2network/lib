@@ -1,13 +1,11 @@
 {
-	"extends": "./tsconfig.json",
-	"compilerOptions": {
-		"module": "es2015",
-		"moduleResolution": "classic",
-		"outDir": "output-es",
-		"noEmit": false,
-		"declaration": true,
-	},
-	"exclude": [
-		"source/**/*.tests.ts",
-	],
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "outDir": "output-es",
+    "noEmit": false,
+    "declaration": true
+  },
+  "exclude": ["source/**/*.tests.ts"]
 }
